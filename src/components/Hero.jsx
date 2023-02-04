@@ -14,7 +14,7 @@ const Hero = () => {
         <div className={`flex-1 flex justify-center flex-col xl:px-0 sm:px-16 px-6 `}>
           <div className="flex flex-row justify-between items-center w-full">
             <h1 className="flex-1 font-poppins text-center font-semibold ss:text-[62px] text-[52px] text-gradient ss:leading-[100px] leading-[75px] " id='text-gradient'>
-              Ən keyfiyyətli döşəklər üçün bir pəncərəniz olan HAKSAN xoş gəlmisiniz.
+              Ən keyfiyyətli döşəklər üçün bir pəncərəniz olan HAKSANA xoş gəlmisiniz.
             </h1>
           </div>
           <Carousel className='m-0 h-full' afterChange={onChange}>

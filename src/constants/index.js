@@ -1,4 +1,4 @@
-import { facebook, instagram, linkedin, airbnb, binance, coinbase, dropbox, star, shield, send, img2, img1, img3, img4, img13, img11, img7, img6, img8, img9, img5, img14, img15, img17, img18, img29, img30, img042, img65, } from "../assets";
+import { facebook, instagram, linkedin, airbnb, binance, coinbase, dropbox, star, shield, send, img2, img1,  img13, img11, img7, img6, img8, img9, img5, img14, img15, img17, img18, img29, img30, img042, img65, } from "../assets";
 
 export const navLinks = [
   {
@@ -124,21 +124,23 @@ export const socialMedia = [
 
 export const clients = [
   {
-    id: "client-1",
-    logo: airbnb,
+    id: "client-4",
+    logo: dropbox,
   },
   {
-    id: "client-2",
-    logo: binance,
+    id: "client-1",
+    logo: airbnb,
   },
   {
     id: "client-3",
     logo: coinbase,
   },
   {
-    id: "client-4",
-    logo: dropbox,
+    id: "client-2",
+    logo: binance,
   },
+
+
 ];
 
 export const Product = [
@@ -152,12 +154,6 @@ export const Product = [
     id: "client2",
     logo: img2,
   },
-
-  {
-    id: "client3",
-    logo: img3,
-  },
-
   {
     id: "client44",
     logo: img13,
@@ -165,10 +161,6 @@ export const Product = [
   {
     id: "client4gfd",
     logo: img11,
-  },
-  {
-    id: "cl4ient4dgdfds",
-    logo: img4,
   },
   {
     id: "client4dhg",
