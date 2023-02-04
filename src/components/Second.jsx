@@ -3,6 +3,9 @@ import styles, { layout } from "../style";
 
 const Second = () => (
     <section id="products" className={`${layout.sectionReverse} `}>
+        <div className={layout.sectionImgReverse}>
+            <img src={img1} alt="billing" className="w-[100%] h-[100%]  relative z-[5] rounded" />
+        </div>
         <div className={layout.sectionInfo}>
             <h2 className={styles.heading2}>
                 Lotus
@@ -21,9 +24,7 @@ const Second = () => (
                 10-Yazılı yan kulplar<br />
             </p>
         </div>
-        <div className={layout.sectionImgReverse}>
-            <img src={img1} alt="billing" className="w-[100%] h-[100%]  relative z-[5] rounded" />
-        </div>
+
     </section>
 );
 

@@ -3,6 +3,9 @@ import styles, { layout } from "../style";
 
 const Visco = () => (
     <section id="products" className={`${layout.sectionReverse} `}>
+        <div className={layout.sectionImgReverse}>
+            <img src={visco2} alt="billing" className="w-[100%]  relative z-[5] rounded" />
+        </div>
         <div className={layout.sectionInfo}>
             <h2 className={styles.heading2}>
                 Visco Lux
@@ -21,9 +24,7 @@ const Visco = () => (
                 30 cm hündürlük<br />
             </p>
         </div>
-        <div className={layout.sectionImgReverse}>
-            <img src={visco2} alt="billing" className="w-[100%]  relative z-[5] rounded" />
-        </div>
+
     </section>
 );
 
