@@ -1,5 +1,5 @@
 import styles from "../style";
-import { Billing, Business, Clients, Footer, NavBar, Hero, } from "../components";
+import { Billing,Second, Business, Clients, Footer, NavBar, Hero, } from "../components";
 import Imagas from "../components/imgas";
 import SimpleSlider from "../components/Carousel";
 
@@ -21,6 +21,7 @@ const Main = () => (
                 <div className={`${styles.boxWidth}`}>
                     <Clients />
                     <Business />
+                    <Second />
                     <Billing />
                     <div className="products" id="product">
                         <Imagas />

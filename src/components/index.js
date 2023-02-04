@@ -6,15 +6,16 @@ import CTA from "./Cta";
 import Stats from "./Stats";
 import Footer from "./Footer";
 import Hero from "./Hero";
+import Second from "./Second";
 
 export {
   NavBar,
   Billing,
+  Second,
   Business,
   Clients,
   CTA,
   Stats,
   Footer,
   Hero,
-
 };

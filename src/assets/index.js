@@ -40,9 +40,11 @@ import img37 from "./img37.jpg";
 import img042 from "./img042.jpg";
 import img65 from "./img65.jpg";
 import banner from "./banner.jpg";
+import img3318 from "./img3318.jpg";
 
 
 export {
+  img3318,
   banner,
   img1,
   img14,

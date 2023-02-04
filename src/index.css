@@ -45,6 +45,9 @@
   background-color: #B5B4B2;
 }
 
+img{
+  border-radius: 10px;
+}
 /* .ccsf {
   border-radius: 200px;
   max-width: 100%;
