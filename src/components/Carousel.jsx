@@ -44,9 +44,18 @@ export default function SimpleSlider() {
   return (
     <div style={{
     }}>
+      <h2
+        style={{
+          textAlign: "center",
+          fontSize: "2rem",
+          fontWeight: "bold",
+          color: "#000",
+          marginBottom: "2rem",
+        }}
+      > Pads </h2>
       <Slider
         style={{
-          gap:"45px"
+          gap: "45px"
         }}
         {...settings}>
         {Stacks.map((client) => (

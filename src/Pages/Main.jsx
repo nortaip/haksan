@@ -2,6 +2,7 @@ import styles from "../style";
 import { Billing, Second, Business, Clients, Footer, NavBar, Hero, Seconnn, } from "../components";
 import Imagas from "../components/imgas";
 import SimpleSlider from "../components/Carousel";
+import Lili from "../components/LİLİ";
 
 
 const Main = () => (
@@ -21,9 +22,10 @@ const Main = () => (
                 <div className={`${styles.boxWidth}`}>
                     <Clients />
                     <Business />
+                    <Lili />
                     <Second />
-                    <Billing />
                     <Seconnn />
+                    <Billing />
                     <div className="products" id="product">
                         <Imagas />
                     </div>

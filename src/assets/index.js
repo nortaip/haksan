@@ -40,10 +40,12 @@ import img65 from "./img65.jpg";
 import banner from "./banner.jpg";
 import img3318 from "./img3318.jpg";
 import visco from "./visco.png";
+import lili from "./lili.jpg";
 
 
 export {
   img3318,
+  lili,
   visco,
   banner,
   img1,

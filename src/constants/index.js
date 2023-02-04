@@ -38,12 +38,17 @@ export const footerLinks = [
     title: "Mail's",
     links: [
       {
-        name: "Haksan",
-        link: "mailto:haksanmmc@gmail.com",
+        name: "arenayatak@gmail.com",
+        link: "mailto:arenayatak@gmail.com",
       },
       {
-        name: "ARENA",
-        link: "mailto:arenayatak@gmail.com",}
+        name: "haksanyatak@gmail.com",
+        link: "mailto:haksanyatak@gmail.com",
+      },
+      {
+        name: "haksanmmc@gmail.com",
+        link: "mailto:haksanmmc@gmail.com",
+      }
     ],
   },
   {
@@ -51,6 +56,10 @@ export const footerLinks = [
     links: [
       {
         name: "+994 50 207 22 42",
+        link: "",
+      },
+      {
+        name: "+994 55 235 46 35",
         link: "",
       },
     ],
