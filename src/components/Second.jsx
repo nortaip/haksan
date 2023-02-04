@@ -1,4 +1,4 @@
-import { img65 } from "../assets";
+import { img1 } from "../assets";
 import styles, { layout } from "../style";
 
 const Second = () => (
@@ -22,7 +22,7 @@ const Second = () => (
             </p>
         </div>
         <div className={layout.sectionImgReverse}>
-            <img src={img65} alt="billing" className="w-[100%] h-[100%]  relative z-[5] rounded" />
+            <img src={img1} alt="billing" className="w-[100%] h-[100%]  relative z-[5] rounded" />
         </div>
     </section>
 );
