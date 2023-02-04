@@ -16,7 +16,7 @@ const Visco = () => (
                 5-25 danste list sünger üst və altta<br />
                 6-280 gr.pamuk örnek kumaş <br />
                 7-2.1 cm kapitone süngeri<br />
-                8-Özəl Soprano deseni<br />
+                8-Özəl Visco deseni<br />
                 9-Oval hava komsülleri<br />
                 10-Yazılı yan kulplar<br />
                 11-destek sünger takoz (tam dolu)<br />
