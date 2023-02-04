@@ -50,8 +50,8 @@ export default function SimpleSlider() {
         }}
         {...settings}>
         {Stacks.map((client) => (
-          <div key={client.id} className={`gap-10`}>
-            <img src={client.logo} alt="client_logo" className="" />
+          <div key={client.id} className={``}>
+            <img src={client.logo} alt="client_logo" className=" m-4" />
           </div>
         ))}
       </Slider>

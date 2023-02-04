@@ -5,7 +5,7 @@ import { footerLinks, socialMedia } from "../constants";
 const Footer = () => (
   <section className={`${styles.flexCenter} ${styles.paddingY} flex-col`}>
     <div className={`${styles.flexStart} md:flex-row flex-col mb-8 w-full`}>
-      <div className=" flex  justify-start mr-10">
+      <div className=" flex flex-col justify-start mr-10">
         <img
           src={logo}
           alt="hoobank"
@@ -29,7 +29,9 @@ const Footer = () => (
                   className={`font-poppins font-normal text-[16px] leading-[24px] text-dimBlack hover:text-black cursor-pointer ${index !== footerlink.links.length - 1 ? "mb-4" : "mb-0"
                     }`}
                 >
-                  {link.name}
+                  <a href={link.link}>
+                    {link.name}
+                  </a>
                 </li>
               ))}
             </ul>
@@ -43,7 +45,7 @@ const Footer = () => (
         Copyright Ⓒ 2019-2023 HAKSAN MMC. All Rights Reserved.
       </p>
 
-      <div className="flex flex-row md:mt-0 mt-6">
+      {/* <div className="flex flex-row md:mt-0 mt-6">
         {socialMedia.map((social, index) => (
           <img
             key={social.id}
@@ -54,7 +56,7 @@ const Footer = () => (
             onClick={() => window.open(social.link)}
           />
         ))}
-      </div>
+      </div> */}
     </div>
   </section>
 );

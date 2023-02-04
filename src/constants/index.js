@@ -1,4 +1,4 @@
-import { facebook, instagram, linkedin, airbnb, binance, coinbase, dropbox, star, shield, send, img2, img1,  img13, img11, img7, img6, img8, img9, img5, img14, img15, img17, img18, img29, img30, img042, img65, } from "../assets";
+import { facebook, instagram, linkedin, airbnb, binance, coinbase, dropbox, star, shield, send, img2, img1, img13, img11, img7, img6, img8, img9, img5, img14, img15, img17, img18, img29, img30, img042, img65, visco, } from "../assets";
 
 export const navLinks = [
   {
@@ -34,56 +34,27 @@ export const stats = [
 ];
 
 export const footerLinks = [
-  // {
-  //   title: "Useful Links",
-  //   links: [
-  //     {
-  //       name: "Content",
-  //       link: "https://www.hoobank.com/content/",
-  //     },
-  //     {
-  //       name: "How it Works",
-  //       link: "https://www.hoobank.com/how-it-works/",
-  //     },
-  //     {
-  //       name: "Create",
-  //       link: "https://www.hoobank.com/create/",
-  //     },
-  //     {
-  //       name: "Explore",
-  //       link: "https://www.hoobank.com/explore/",
-  //     },
-  //     {
-  //       name: "Terms & Services",
-  //       link: "https://www.hoobank.com/terms-and-services/",
-  //     },
-  //   ],
-  // },
-  // {
-  //   title: "Community",
-  //   links: [
-  //     {
-  //       name: "Help Center",
-  //       link: "https://www.hoobank.com/help-center/",
-  //     },
-  //     {
-  //       name: "Partners",
-  //       link: "https://www.hoobank.com/partners/",
-  //     },
-  //     {
-  //       name: "Suggestions",
-  //       link: "https://www.hoobank.com/suggestions/",
-  //     },
-  //     {
-  //       name: "Blog",
-  //       link: "https://www.hoobank.com/blog/",
-  //     },
-  //     {
-  //       name: "Newsletters",
-  //       link: "https://www.hoobank.com/newsletters/",
-  //     },
-  //   ],
-  // },
+  {
+    title: "Mail's",
+    links: [
+      {
+        name: "Haksan",
+        link: "mailto:haksanmmc@gmail.com",
+      },
+      {
+        name: "ARENA",
+        link: "mailto:arenayatak@gmail.com",}
+    ],
+  },
+  {
+    title: "Phone",
+    links: [
+      {
+        name: "+994 50 207 22 42",
+        link: "",
+      },
+    ],
+  },
   // {
   //   title: "Partner",
   //   links: [
@@ -138,6 +109,10 @@ export const clients = [
   {
     id: "client-2",
     logo: binance,
+  },
+  {
+    id: "client-22",
+    logo: visco,
   },
 
 
@@ -194,14 +169,10 @@ export const Product = [
     id: "gdhdfg042",
     logo: img042,
   },
-  {
-    id: "gdhdfg065",
-    logo: img65,
-  },
-
 ];
 
 export const Stacks = [
+
   {
     id: "gdhdfgh",
     logo: img14,
