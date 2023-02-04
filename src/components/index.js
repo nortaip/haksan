@@ -9,10 +9,12 @@ import Hero from "./Hero";
 import Second from "./Second";
 import Seconnn from "./Seconnn";
 import LILI from "./LİLİ"
+import Visco from "./Visco"
 
 export {
   NavBar,
   LILI,
+  Visco,
   Billing,
   Second,
   Seconnn,
