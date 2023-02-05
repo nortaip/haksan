@@ -42,6 +42,7 @@ import img3318 from "./img3318.jpg";
 import visco from "./visco.png";
 import visco2 from "./visco.jpg";
 import lili from "./lili.jpg";
+import Lotos3 from "./Lotos3.jpg";
 
 
 export {
@@ -49,6 +50,7 @@ export {
   lili,
   visco,
   visco2,
+  Lotos3,
   banner,
   img1,
   img14,

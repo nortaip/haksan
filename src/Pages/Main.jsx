@@ -1,5 +1,5 @@
 import styles from "../style";
-import { Billing, Second, Business, Clients, Footer, NavBar, Hero, Seconnn, Visco, } from "../components";
+import { Billing, Second, Business, Clients, Footer, NavBar, Hero, Seconnn, Visco, LotosA, } from "../components";
 import Imagas from "../components/imgas";
 import SimpleSlider from "../components/Carousel";
 import Lili from "../components/LİLİ";
@@ -27,6 +27,7 @@ const Main = () => (
                     <Seconnn />
                     <Billing />
                     <Visco />
+                    <LotosA />
                     <div className="products" id="product">
                         <Imagas />
                     </div>

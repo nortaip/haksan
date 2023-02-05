@@ -8,20 +8,10 @@ const Second = () => (
         </div>
         <div className={layout.sectionInfo}>
             <h2 className={styles.heading2}>
-                Lotus
+                Lotos
             </h2>
             <p className={`${styles.paragraph} mt-5 text-black`}>
-                160x200 ortopedik yatak<br />
-                1- Doşek 24 cm yüksəkliktə<br />
-                2-900 gr sert keçe<br />
-                3-22 danste 6x16 cm yan destek sünger takozlu<br />
-                4-20 danste 9 adet iç 5x15 süngər takozlu<br />
-                5-22 danste list sünger üst və altta<br />
-                6-200 gr.pamuk örnek kumaş<br />
-                7-2.1 cm kapitone süngeri<br />
-                8-Özəl lotus deseni<br />
-                9-Oval hava komsülleri<br />
-                10-Yazılı yan kulplar<br />
+                Orta sərtliyə malik olmalı, bel, kürək, baş-boyun və diz bölgələri dəstəkləeən müstəqil yay karkas sistemi olmalıdır, yatagın tam ortopedik olmasını təmin edən, yüksək sıxlıqlı süngər elementləri olmalı, üzlüyünün parçası - antibakterial, hörgülü pambıq parça. Ortopedik döşəyin ölçüləri - hündürlüyü - 25 sm (±), eni - 90 sm, uzunluq - 200 sm
             </p>
         </div>
 

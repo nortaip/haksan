@@ -8,12 +8,14 @@ import Footer from "./Footer";
 import Hero from "./Hero";
 import Second from "./Second";
 import Seconnn from "./Seconnn";
-import LILI from "./LİLİ"
-import Visco from "./Visco"
+import LILI from "./LİLİ";
+import Visco from "./Visco";
+import LotosA from "./LotosA";
 
 export {
   NavBar,
   LILI,
+  LotosA,
   Visco,
   Billing,
   Second,
